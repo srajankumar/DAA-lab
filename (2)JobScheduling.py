@@ -24,5 +24,6 @@ jobs = [
         int(input(f"Profit for Job {i + 1}: ")))
     for i in range(int(input("Enter number of jobs: ")))]
 
+
 T = int(input("Enter Deadline Limit: "))
 schedule_jobs(jobs, T)
